@@ -1,1 +1,327 @@
+*,*::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.banner {
+    background-image: url(../img/banner.jpeg);
+    height: 120vh;
+    font-family: sans-serif, open sans;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 95vh;
+    column-gap: 4%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner-heading{
+    font-size: 40px;
+    color: white;
+    font-family: open sans;
+    margin-bottom: .5em;
+}
+
+.banner-text{
+    font-size: 20px;
+    background: white;
+    font-family: sans-serif;
+    width: 60%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.peach-1{
+    background-color: #d9b1b3;
+    height: 60vh;
+}
+
+.text-section{
+    width: 100%;
+    height: 100%;
+    padding-right: 380px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+
+.italized-sect{
+    color: white;
+    font-family: open sans;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.normal-sect{
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 70%;
+    padding-right: 100px;
+}
+
+.pic-container1{
+    display: flex;
+}
+
+.images{
+    width: 100%;
+}
+
+.pic-container2{
+    display: flex;
+}
+
+.peach-2{
+    background-color: #d9b1b3;
+    height: 50vh;
+    text-align: center;
+}
+
+.coming-soon{
+    color: white;
+    font-style: italic;
+
+}
+
+.note{
+    color: white;
+    font-size: 27px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-1{
+    padding: 14px;
+    padding-left: 9px;
+    width: 20%;
+    text-align: start;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+.btn-2{
+    padding: 14px;
+    padding-left: 9px;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+.btn-3{
+    padding: 14px;
+    padding-left: 9px;
+    width: 10%;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.white-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    height: 60vh;
+    column-gap: 4%;
+
+}
+
+.article-image{
+    height: 5%;
+    width: 70%;
+    border-radius: 6px;
+    justify-content: center;
+    margin-top: 210px;
+    padding: 100px;
+}
+
+.article{
+    text-align: justify;
+    width: 70%;
+    font-size: 20px;
+    padding: 100px;
+    margin-top: 30px;
+    color: black;
+}
+
+.peach-3{
+    background-color: #d9b1b3;
+    height: 90vh;
+}
+
+.spring-collection{
+    color: white;
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+   
+}
+
+.pic-collage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.collage{
+    width: 250px;
+}
+
+.collage2{
+    padding: 0 10px;
+}
+
+.collage3{
+    padding: 0 10px;
+}
+
+.arrow-right{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.sample-section{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+  
+.sample-image{
+    display: flex;
+    width: 60%;
+    gap: 24px;
+}
+  
+.sample-image .sample-product{
+    gap: 50px;
+}
+
+.sample-product h3 {
+    font-size: 3rem;
+    font-weight: normal; 
+}
+
+.sample-product .product-button{
+    background-color: black;
+    color: white;
+    padding: 15px 60px;
+    border: unset;
+    border-radius: 25px;
+}
+
+.sample-product p {
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+  
+.sample-product h3{
+    padding-bottom: 20px;
+}
+
+.footer-section{
+    width: 100%;
+    display: flex;
+}
+
+.footer-image{
+    width: 50%;
+}
+
+.footer-section .image-container{
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+.footer-section .subscribe-image{
+    background-image: url(../img/subscribe.jpeg);
+}
+
+.footer-section{
+    gap: 50px;
+}
+  
+.subscribe-section{
+    width: 50%;
+    padding-right: 50px;
+    text-align: center;
+}
+  
+.subscribe-section hr{
+    background-color: #d9b1b3;
+    border-style: none;
+    margin-top: 175px;
+}
+  
+.subscribe-section h1{
+    font-style: italic;
+    font-size: 5rem;
+    padding-bottom: 60px;
+}
+  
+#form{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+  
+.subscribe-section .email,
+.subscribe-section .name{
+    padding: 12px 170px 12px 2px;
+    margin-bottom: 15px;
+}
+  
+.subscribe-section .product-button{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: unset;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+  
+.subscribe-section .subscribe-text{
+    font-size: 0.9rem;
+    width: 55%;
+    margin: auto;
+    margin-bottom: 20px;
+}
